@@ -4,67 +4,6 @@ MakerKit is a SaaS starter project built with Next.js, Supabase and Tailwind CSS
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-This is a quick guide to get you started with the project. For more details, 
-please refer to the [documentation](https://makerkit.dev/docs/next-supabase/introduction).
-
-### Before you deploy to production
-
-Many users try to deploy to production without going through the steps below.
-The result is the application won't be working as expected.
-
-**Important**: deploying to production (Vercel or other) will require you to 
-fill the required environment variables. 
-
-[Please refer to the documentation](https://makerkit.dev/docs/next-supabase/going-to-production-overview) to 
-learn more.
-
-**Failure to do so will result in your application not working as expected 
-or not deploying at all**. Please ensure you have the required environment 
-variables and keys before deploying to production.
-
-### Requirements
-
-Ensure you have the following installed:
-
-- Node.js (LTS recommended)
-- Git
-- Docker
-
-### Cloning the Repository
-
-Clone this repository and name it according to your preferences (in the example below, we use `your-saas`):
-
-```
-git clone https://github.com/makerkit/next-supabase-saas-kit.git your-saas
-```
-
-Move to the folder just cloned:
-
-```
-cd your-saas
-```
-
-Set this repository as your upstream fork, so you can
-pull updates when needed:
-
-```
-git remote add upstream https://github.com/makerkit/next-supabase-saas-kit
-```
-
-We recommend to watch to the repository, so you know when there's an update.
-To pull the latest updates, use:
-
-```
-git pull upstream main
-```
-
-In case we change the same files, you will need to resolve the conflicts.
-
-Alternatively, you can cherry-pick changes so to reduce the amount of
-conflicts across the files.
-
 ### Installing the Node Modules
 
 Install the Node modules with the following command:
